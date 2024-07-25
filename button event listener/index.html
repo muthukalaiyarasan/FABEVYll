@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	  <!-- <meta name="viewport" content="width-device,initial-scale=1.0"> -->
+	  <!-- <link rel="stylesheet" href="css/style.css"> -->
+	  <!-- <link rel="stylesheet" href=".\font\css\font-awesome.css"> -->
+	  <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <!-- <link rel="stylesheet" href="owl/owl.carousel.min.css"> -->
+	  <!-- <link rel="stylesheet" href="owl/owl.theme.default.min.css"> -->
+	  
+	 
+</head>
+<body>
+
+<input type="text" placeholder="number" id="number1"><br>
+<input type="text" placeholder="number" id="number2"><br>
+<button id="add">sum</button>
+<br>
+<p id="para"></p>
+<script>
+    
+
+var output=document.getElementById("add");
+output.addEventListener("click",function(){
+var num1=parseInt(document.getElementById('number1').value);
+var num2=parseInt(document.getElementById('number2').value);
+document.getElementById("para").innerHTML=num1+num2;
+});
+</script>
+
+
+
+
+
+<!-- <script src="js/main.js"></script> -->
+</body>
+</html>
+
